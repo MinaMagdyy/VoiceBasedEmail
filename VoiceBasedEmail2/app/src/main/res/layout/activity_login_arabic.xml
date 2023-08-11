@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFAFF"
+    android:orientation="vertical"
+    tools:context=".loginArabic">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/Elogintv"
+        android:layout_width="1105dp"
+        android:layout_height="425dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/draw1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="501dp"
+        android:layout_height="211dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/light" />
+
+    <TextView
+        android:id="@+id/Erecivetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="تسجيل الدخول"
+        android:textColor="#FF5144"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <EditText
+        android:id="@+id/Aemail"
+        android:layout_width="334dp"
+        android:layout_height="65dp"
+        android:background="@drawable/seeeeeeeeeeeebtn"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FF5144"
+        android:hint="البريد الالكتروني"
+
+        android:paddingRight="30dp"
+        android:layout_margin="20dp"
+
+        android:gravity="right|center_vertical"
+
+        android:textColor="#FF5144"
+        android:textColorHint="#FF5144"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Erecivetv"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/Apass"
+        android:layout_width="334dp"
+        android:layout_height="65dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/seeeeeeeeeeeebtn"
+        android:drawableRight="@drawable/ic_baseline_security_24"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FF5144"
+        android:hint="كلمة المرور"
+        android:paddingRight="30dp"
+
+        android:gravity="right|center_vertical"
+
+        android:inputType="textPassword"
+
+        android:textColor="#FF5144"
+        android:textColorHint="#FF5144"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aemail"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/seeeeeeeeeeeebtn"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="تسجيل الدخول"
+
+        android:layout_margin="20dp"
+
+        android:textColor="#FF5144"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Apass"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFAFF"
+    android:orientation="vertical"
+    tools:context=".activity_login">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/Erecivetv"
+        android:layout_width="150dp"
+        android:layout_height="71dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#F44336"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <ImageView
+        android:id="@+id/Elogintv"
+        android:layout_width="1105dp"
+        android:layout_height="425dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/draw1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="501dp"
+        android:layout_height="211dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/light" />
+
+    <Button
+        android:id="@+id/login"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="login"
+        android:textColor="#FF5144"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="256dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        android:background="@drawable/seeeeeeeeeeeebtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.454"
+        app:layout_constraintTop_toBottomOf="@+id/password"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="334dp"
+        android:layout_height="65dp"
+        android:background="@drawable/seeeeeeeeeeeebtn"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableTint="#FF5144"
+        android:drawablePadding="8dp"
+        android:hint="Email"
+        android:paddingLeft="30dp"
+        android:textColorHint="#FF5144"
+        android:textColor="#FF5144"
+        android:textSize="30dp"
+
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Erecivetv"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <EditText
+        android:id="@+id/password"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="8dp"
+        android:drawableTint="#FF5144"
+        android:hint="Password"
+        android:paddingLeft="30dp"
+        android:textColorHint="#FF5144"
+        android:textColor="#FF5144"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        android:inputType="textPassword"
+
+        android:layout_width="334dp"
+        android:layout_height="65dp"
+        android:background="@drawable/seeeeeeeeeeeebtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        app:layout_constraintTop_toBottomOf="@+id/email"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

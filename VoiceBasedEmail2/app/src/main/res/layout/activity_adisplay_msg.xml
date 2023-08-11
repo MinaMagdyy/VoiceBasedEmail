@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFAFF"
+    android:orientation="vertical"
+    tools:context="activity_send">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#EFFAFF"
+
+
+        >
+
+        <TextView
+            android:id="@+id/Arecivetextv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="استقبال الرسائل"
+            android:textColor="#FF5144"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/emailrecieve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/seeeeeeeeeeeebtn"
+            android:drawablePadding="1dp"
+            android:enabled="false"
+            android:gravity="start"
+            android:hint=" Email "
+            android:paddingLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF5144"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Arecivetextv"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/subjectrecive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seeeeeeeeeeeebtn"
+            android:drawablePadding="1dp"
+            android:enabled="false"
+            android:hint=" Subject "
+            android:layout_margin="10dp"
+
+            android:paddingLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF5144"
+
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailrecieve"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/messagerecive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seeeeeeeeeeeebtn"
+            android:drawablePadding="1dp"
+            android:enabled="false"
+            android:gravity="start"
+            android:hint=" Message "
+            android:layout_margin="10dp"
+
+            android:paddingLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF5144"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subjectrecive"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
